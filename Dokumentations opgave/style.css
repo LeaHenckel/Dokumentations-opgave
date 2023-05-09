@@ -1,0 +1,40 @@
+.body, html {
+    background-color: rgb(205, 212, 167);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#lightBulbHeader { /* Nedenstående styler på overskriften */
+    text-align: center;
+    text-decoration: dotted;
+    color: yellow;
+}
+
+#shortParagh {   /*  Nedenstående formindsker tekststørrelsen og sætter teksten i centrum af skærmen.  */
+    font-size: x-small;
+    text-align: center;
+}
+
+section { 
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#bulb {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#on {
+    font-size: xx-small
+}
+
+#off {
+    font-size: xx-small;
+}
